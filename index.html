@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ce7c3c43ce.js" crossorigin="anonymous"></script>
+    <title>Aldy Ahmad Fauzi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header">     
+        
+        <div class="container">   
+            <nav>
+                <img src="foto/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>         
+            <div class="header-text">
+                <p>Developer Web</p>
+                <h1>Hi, I'm <span>Aldy</span> Ahmad<br> Fauzi <span>From</span> Indonesia</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="foto/aldy.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titles">About Me</h1>
+                    <p>I have skills in web developer and UX/UI Design. My knowledge about Back-End and Front-End
+                        web allows me to solve problems and build web apps out of them. My ability to
+                    understanding user experience makes me have UX/UI skills in designing web apps.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skill</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desain Web/App Interface</li>
+                            <li><span>Web Developer</span><br>Web Progamming</li>                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020</span><br>Juara satu Product Desain dalam kompetisi Infect</li>
+                            <li><span>2020</span><br>Menjadi ketua dalam kompetisi web desain yang diadakan Universitas Udayana</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017 - 2020</span><br>SMK Muhammadiyah Kajen <br> Jurusan Audio Video</li>
+                            <li><span>2020 - Now</span><br>Universitas Muhammadiyah Yogyakarta <br> Jurusan Teknologi Informasi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service -->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-titles">My Service</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                </div>
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>App Design</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titles">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="foto/Halaman1.png" alt="not">
+                    <div class="layer">
+                        <h3>Kerajinanku</h3>
+                        <p>Desain Website untuk UMKM kerajinan yang sulit untuk mempromosikan barang kerajinan mereka</p>
+                        <a href="https://www.figma.com/file/MEswWUU2CWVyFAm1pNnUcg/Mockup-Web-KaryaKu?node-id=0%3A1&t=xwNimi3gJAbDlGEJ-1" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="foto/Beranda1.png" alt="note yet">
+                    <div class="layer">
+                        <h3>NutriBaby</h3>
+                        <p>Desain Website NutriBaby desain dengan seminimalis mungkin agar user bisa langsung tertuju dengan informasi mengenai kesehatan bayi</p>
+                        <a href="https://www.figma.com/file/uE3I0pdIIL6Z08XOkCafsn/Untitled?node-id=11%3A27&t=xwNimi3gJAbDlGEJ-1" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="foto/halaman4.png" alt="not">
+                    <div class="layer">
+                        <h3>Form Pendaftaran Vaksin</h3>
+                        <p>Website mengenai form pendaftaran vaksin website masih bersifat static</p>
+                        <a href="https://github.com/aldy202/projek.github.io.git" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/aldy202" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+
+
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> aldyfauzi@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 099878685478</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="foto/aldy ahmad fauzi.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" id="email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Aldy. <i class="fa-solid fa-heart-circle-check"></i> Made with by AFStudio</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzK3biu6U03JS0WGpX4NWmeSJNd4oR7scNYV5qVGCr3szoqE3In6lBOtA44aGoAeSt6Rw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent seccessfully!!"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
