@@ -426,6 +426,9 @@ nav .fa-solid{
     .contact-right{
         font-size: 14px;
     }
+    .logo{
+        width: 200px;
+    }
 }
 #msg{
     color: #ff004f;
